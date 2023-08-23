@@ -1,0 +1,66 @@
+*{
+    background-color: rgb(186, 251, 251);
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+
+h3, h4, p{margin: 1vh 0;}
+
+img{
+    width: 8vw;
+    height: 8vw;
+    margin: 5vh 0 2vh 0;
+}
+
+.BottonPoke{
+    border: none;
+    padding: 2vh 2vh;
+    margin: 10vh 10vh 10vh 10vh;
+    background-color: rgb(234, 255, 0);
+    border-radius: 8%;
+    box-shadow: 5px 5px 5px rgba(118, 118, 118, 0.101);
+    
+}
+.BottonPoke:hover{
+    box-shadow: 0 12px 16px 0 rgba(234, 255, 0, 0.24), 0 17px 50px 0 rgba(234, 255, 0, 0.19);
+}
+
+.Datapoke h3{
+    font-size: 2rem;
+    color: rgb(25, 189, 0);
+}
+
+.Infopoke{
+    width: 15%;
+    display: flex;
+    margin-left: 42%;
+    justify-content: space-between;
+}
+
+.InvolveBoton{
+    margin-top: 1rem;
+    margin-right: 1rem;
+    width: 4rem;
+    height: 1.5rem;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 1rem;
+}
+.InvolveBoton:hover{
+    box-shadow: 0 12px 16px 0 rgba(255, 0, 0, 0.24), 0 17px 50px 0 rgba(255,0,0,0.19);
+}
+.EvolveBoton{
+    width: 4rem;
+    height: 1.5rem;
+    background-color: rgb(0, 13, 255);
+    color: white;
+    border: none;
+    border-radius: 1rem;
+}
+.EvolveBoton:hover{
+    box-shadow: 0 12px 16px 0 rgba(0, 64, 255, 0.24), 0 17px 50px 0 rgba(0,64,255,0.19);
+}
